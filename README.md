@@ -11,7 +11,7 @@ This is a suite of MATLAB-based programmes for the Parameterization of PC-SAFT m
 More information about all modules are shown in the sequence diagrams in sensitivity_analysis.pdf, Parameterization.pdf and validation_param.pdf.
 
 ## Running
-STEP 1.  Preparing the raw data into the trial_data.m file.
-STEP 2.  Setting the values of PC_SAFT_Params in ParamOpt.m, then running the programme to output the parameters of polymer species. Args in CONST, ul and ub are optionally set.
-STEP 3.  Setting the values of PC_SAFT_Params and running the Validation_Para.m to evaluate the fitting error of the parameterization work.
-STEP 4. (Optional).  Running the Sensitivity_Analysis.m to analyze the sensitivity of parameters.
+- STEP 1.  Preparing the raw data into the trial_data.m file.
+- STEP 2.  Setting the values of PC_SAFT_Params in ParamOpt.m, then running the programme to output the parameters of polymer species. Args in CONST, ul and ub are optionally set.
+- STEP 3.  Setting the values of PC_SAFT_Params and running the Validation_Para.m to evaluate the fitting error of the parameterization work.
+- STEP 4. (Optional).  Running the Sensitivity_Analysis.m to analyze the sensitivity of parameters.
